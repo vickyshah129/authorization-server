@@ -1,4 +1,4 @@
-package ai.auth.jwt.config;
+package com.authorization.server.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,9 +7,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 
-/**
- * Created by suman.das on 11/28/18.
- */
 @Configuration
 public class AdditionalWebConfig {
     /**

@@ -1,8 +1,8 @@
-package ai.auth.jwt.controller;
+package com.authorization.server.controller;
 
-import ai.auth.jwt.domain.RandomCity;
-import ai.auth.jwt.domain.User;
-import ai.auth.jwt.service.GenericService;
+import com.authorization.server.domain.RandomCity;
+import com.authorization.server.domain.User;
+import com.authorization.server.service.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.oauth2.provider.endpoint.TokenEndpoint;
@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Created by suman.das on 11/28/18.
- */
 @RestController
 @RequestMapping("/jwttest")
 public class ResourceController {

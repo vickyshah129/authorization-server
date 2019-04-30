@@ -1,10 +1,7 @@
-package ai.auth.jwt.domain;
+package com.authorization.server.domain;
 
 import javax.persistence.*;
 
-/**
- * Created by suman.das on 11/28/18.
- */
 @Entity
 @Table(name = "random_city")
 public class RandomCity {

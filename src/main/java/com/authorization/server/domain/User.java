@@ -1,13 +1,10 @@
-package ai.auth.jwt.domain;
+package com.authorization.server.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.util.List;
 
-/**
- * Created by suman.das on 11/28/18.
- */
 @Entity
 @Table(name = "app_user")
 public class User {

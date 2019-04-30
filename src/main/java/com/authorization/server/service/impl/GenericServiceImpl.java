@@ -1,18 +1,15 @@
-package ai.auth.jwt.service.impl;
+package com.authorization.server.service.impl;
 
-import ai.auth.jwt.domain.RandomCity;
-import ai.auth.jwt.domain.User;
-import ai.auth.jwt.repository.RandomCityRepository;
-import ai.auth.jwt.repository.UserRepository;
-import ai.auth.jwt.service.GenericService;
+import com.authorization.server.domain.RandomCity;
+import com.authorization.server.domain.User;
+import com.authorization.server.repository.RandomCityRepository;
+import com.authorization.server.repository.UserRepository;
+import com.authorization.server.service.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by suman.das on 11/28/18.
- */
 @Service
 public class GenericServiceImpl implements GenericService {
     @Autowired

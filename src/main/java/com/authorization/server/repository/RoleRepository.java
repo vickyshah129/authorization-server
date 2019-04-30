@@ -1,10 +1,7 @@
-package ai.auth.jwt.repository;
+package com.authorization.server.repository;
 
-import ai.auth.jwt.domain.Role;
+import com.authorization.server.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- * Created by suman.das on 11/28/18.
- */
 public interface RoleRepository extends JpaRepository<Role, Long> {
 }

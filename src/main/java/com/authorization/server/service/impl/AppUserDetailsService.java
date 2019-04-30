@@ -1,7 +1,7 @@
-package ai.auth.jwt.service.impl;
+package com.authorization.server.service.impl;
 
-import ai.auth.jwt.domain.User;
-import ai.auth.jwt.repository.UserRepository;
+import com.authorization.server.domain.User;
+import com.authorization.server.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -13,9 +13,6 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by suman.das on 11/28/18.
- */
 @Component
 public class AppUserDetailsService implements UserDetailsService{
     @Autowired
